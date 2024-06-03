@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('./img/background-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Luckiest guy',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+header p{
+    color: #fff;
+    font-weight: 300;
+}
+
+.container-buton{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton-01, .buton-02{
+    height: 45px;
+    width: 502px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif ;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton-01 a{
+    text-decoration: none;
+    color: #000;
+} 
+
+.buton-02 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.buton-01{
+    background-color: #fff;
+    color: #000;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.buton-01:hover{
+    background-color: #ffffff30;
+    color: #fff;
+    transition: 0.1s ease-in;
+}
+
+.buton-02{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.buton-02:hover{
+    background-color: #ffffff30;
+    color: #000;
+    transition: 0.1s ease-in;
+}
+
+/* EDITAR AS CORES DO TEXTO DO HOVER, POIS ESTÁ NA TAG <a> */
+
+section{
+    height: 500px;
+    display: flex;
+    padding: 70px 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font-size: 50px;
+}
+
+.section-2, .section-4{
+    background-color: #F6F6F6;
+}
+
+.section-4{
+    flex-direction: column;
+    padding: 50px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #23272A;
+    height: 135px;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+    font-size: 60px;
+    
+}
+
+footer p{
+    font-family: 'Luckiest guy', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
